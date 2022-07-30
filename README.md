@@ -7,5 +7,5 @@ https://support.apple.com/en-vn/HT201236#:~:text=To%20minimize%20all%20windows%2
 |   |  Mac |  Windows |   |   |
 |---|---|---|---|---|
 | Minimize all  | Command+M  | Windows+D  |   |   |
-|   |   |   |   |   |
+|   | `ifconfig en1 \| awk '/ether/{print $2}' ` | getmac  |   |   |
 |   |   |   |   |   |
